@@ -1,0 +1,35 @@
+.title{font-size: 3rem;font-weight: 900;color: white;text-shadow: 0 0 8px blue;
+text-decoration: underline;}
+.title{border: 1px solid blue;width:180px;margin: auto;}
+.main{width: 100%;height: 1000px;background-image: url(../img/МОЁ-ПОРТФОЛИО.jpg);
+background-size: cover;background-position: center;}
+.title{display: flex;align-items: center;}
+.bos>.box1,.box2,.box3,.box4{width: 440px;height: 350px;box-shadow: 0 0 10px blue;}
+.bos{width: 900px;height: 1000px;margin: auto;margin-top: 50px;}
+.bos{display: flex;
+flex-wrap: wrap;
+justify-content: space-between;}
+.box1{background-image: url(../img/рисунок-для-портфолио.jpg);background-size: cover;
+background-position: center;}
+.box2{background-image: url(../img/картинка-для-портфолио.jpg);background-size: cover;
+background-position: center;}
+.box3{background-image: url(../img/IMG.png);background-size: cover;background-position: center;}
+.box4{background-image: url(../img/Главная---Desktop-1440.jpg);background-size: cover;background-position: center;}
+.navigation{height: 50px;}
+.navigation>ul{height: 45px;background-color: #777;}
+.navigation>ul>li{float: left;list-style: none;position: relative;}
+.navigation>ul>li>a{font-weight: bold;line-height: 14px;display: block;
+padding: 13px 28px;color: #ffffff;text-decoration: none;}
+.navigation>ul>li:first-child>a{padding-left: 69px;}
+.navigation>ul>li>a:hover,
+.navigation>ul>li>a.active{background-color: #333333;color: #76e16e;}
+.navigation>ul>li>ul{background-color: #777;border-radius:0 0 10px 10px;
+overflow: hidden;position: absolute;top: 40px;width: 150px;}
+.navigation>ul>li>ul>li{list-style: none;}
+.navigation>ul>li>ul>li>a{font-size: 12px;display:block;line-height: 12px;
+padding: 10px 28px;color: #ffffff;text-decoration: none;font-weight: bold;
+border-top: 1px solid #ffffff;}
+.navigation>ul>li>ul{display: none;}
+.navigation>ul>li>ul>li>a:hover,
+.navigation>ul>li>ul>li>a.active{background-color: #333333;}
+.navigation>ul>li:hover>ul{display: block;}
